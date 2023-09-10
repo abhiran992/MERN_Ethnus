@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #formarea {
+            background: rgba(117, 32, 63, 255);
+            color: white;
+            width: 32%;
+            padding: 2%;
+            padding-left: 10.5%;
+            text-align: left;
+            margin-left: 28%;
+            margin-top: 5%;
+        }
+
+        input[type=text],
+        input[type=password],
+        input[type=number],
+        input[type=email] {
+            width: 195px;
+        }
+
+        button {
+            width: 328px;
+            height: 40px;
+            border-radius: 5%;
+            font-weight: bolder;
+            font-size: larger
+        }
+
+        select {
+            margin-left: 10.5%;
+            width: 200px;
+        }
+
+        #zip {
+            margin-left: 10.5%;
+        }
+
+        #name,
+        #email {
+            margin-left: 16%;
+        }
+
+        #pass {
+            margin-left: 11%;
+        }
+
+        #phone {
+            margin-left: 4%;
+        }
+
+        #genderr {
+            display: inline;
+            margin-left: 14%;
+        }
+
+        #about {
+            margin-left: 14.5%;
+        }
+
+        body {
+            background-color: rgba(162, 43, 85, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="formarea">
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" name="" id="name" placeholder="your name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="" id="email" placeholder="your email">
+            <br><br>
+            <label for="pass">Password:</label>
+            <input type="password" name="" id="pass">
+            <br><br>
+            <label for="phone">Phone Number:</label>
+            <input type="number" name="" id="phone">
+            <br><br>
+            <label for="genderr">Gender:</label>
+            <div id="genderr"><label for="gender">Male:</label>
+                <input type="radio" name="g" id="gender">
+                <label for="female">Female:</label>
+                <input type="radio" name="g" id="female">
+                <label for="other">Other:</label>
+                <input type="radio" name="g" id="other">
+            </div>
+            <br><br>
+            <label for="language">Language:</label>
+            <select name="" id="language">
+                <option value="">Select language</option>
+                <option value="">English</option>
+                <option value="">Hindi</option>
+            </select>
+            <br><br>
+            <label for="zip">ZIP Code:</label>
+            <input type="text" name="" id="zip">
+            <br><br>
+            <label for="about">About:</label>
+            <textarea name="" id="about" cols="25" rows="2" placeholder="write about yourself..."></textarea>
+            <br><br>
+            <button>Register</button>
+        </form>
+    </div>
+</body>
+
+</html>
